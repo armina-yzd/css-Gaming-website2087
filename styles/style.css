@@ -1,4 +1,15 @@
 /* 1. don't modify this style */
+@font-face {
+  font-family: poppinsBold;
+  src: url("..//assets/fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: poppinsRegular;
+  src: url("..//assets/fonts/Poppins-Regular.ttf");
+}
+
+
 * {
   padding: 0;
   margin: 0;
@@ -9,8 +20,15 @@
 /* 2. we use :root for default variables */
 :root {
   /* --"somekey-attr": "somevalue" i.e : */
+  --secondary: #FA8305;
   --black-700: #000;
+  --gradiant: #3B2A9F;
+  --primary-100: #5141AA;
+  --brown: #1C140F;
+  --black: #070707;
+
 }
+
 /* 3. and we use it like this */
 .elementOne {
   /* var(--"somekey-attr") */
@@ -18,3 +36,505 @@
 }
 
 /* good luck */
+
+/* head */
+
+p {
+  font-family: poppinsRegular;
+}
+
+h3 {
+  font-family: poppinsBold;
+  font-size: 32px;
+}
+
+span {
+  color: var(--secondary);
+}
+
+body {
+  background-color: var(--gradiant);
+  width: 1440px;
+}
+
+.header {
+  background-color: var(--blueGradiant);
+  color: white;
+  text-align: center;
+  display: flex;
+  margin-top: 25px;
+  justify-content: space-around;
+  width: 1440px;
+
+}
+
+#logo {
+  font-family: poppinsBold;
+  padding-right: 500px;
+
+}
+
+.head {
+  font-family: poppinsRegular;
+  color: white;
+  margin-top: 40px;
+  margin-left: 80px;
+  text-decoration-line: none;
+
+}
+
+.current {
+  padding-left: 10px;
+  border-bottom: var(--secondary);
+  border-bottom-style: solid;
+  border-radius: 2px;
+  border-width: 4px;
+
+
+}
+
+
+.head_btn {
+  padding: 10px 25px 11px 24px;
+  margin-left: 80px;
+  color: white;
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 9px;
+
+}
+
+/* head end */
+
+/* main */
+main {
+  width: 1140px;
+}
+
+.all {
+  display: flex;
+}
+
+.detail1 {
+  position: absolute;
+
+  color: white;
+  font-family: poppinsRegular;
+  width: 30%;
+  margin: 148px 140px;
+  height: 500px;
+
+}
+
+#prove {
+  color: var(--secondary);
+  line-height: 50px;
+  font-size: 21px;
+}
+
+#work {
+  font-family: poppinsBold;
+  line-height: 70px;
+  font-size: 48px;
+}
+
+#paragraph1 {
+  line-height: 25px;
+  font-size: 15px;
+}
+
+.detailbtn {
+  border-radius: 30px;
+  width: 195px;
+  height: 53px;
+}
+
+#unity {
+  position: relative;
+  left: 280px;
+  bottom: 210px;
+  height: 30px;
+  width: 96px;
+
+}
+
+#joystick {
+  position: relative;
+  left: 820px;
+  height: 706px;
+  width: 600px;
+}
+
+#Cryengine {
+  position: absolute;
+  left: 950px;
+  top: 250px;
+  height: 99px;
+  width: 101px;
+}
+
+#Unreal {
+  position: absolute;
+  left: 1250px;
+  top: 260px;
+  height: 64px;
+  width: 59px;
+}
+
+.detail2 {
+  display: flex;
+  position: relative;
+  top: 180px;
+  color: white;
+ 
+  margin-left: 185px;
+}
+.pa{
+  font-family: poppinsBold; font-size: 37px;
+}
+
+.see_all_btn {
+  position: relative;
+  left: 450px;
+  width: 139px;
+  height: 57px;
+  color: white;
+  background-color: var(--primary-100);
+  border: none;
+  border-radius: 9px;
+
+}
+
+.games {
+  display: flex;
+  margin-left: 180px;
+  margin-top: 170px;
+  list-style: none;
+}
+
+.image_games {
+  margin-top: 57px;
+  margin-right: 34px;
+  width: 251px;
+  height: 277px;
+  border-radius: 20px;
+}
+
+
+.image_games:hover {
+  opacity: 40%;
+}
+
+.game_follower {
+  display: flex;
+  color: white;
+  margin: 18px 45px;
+}
+
+.game_follower:hover {
+  scale: 120%;
+}
+
+.paragraph {
+  font-family: poppinsBold;
+  color: white;
+  font-size: 37px;
+  margin-left: 150px;
+  margin-top: 100px;
+  padding-left: 160px;
+  text-align: center;
+}
+
+.detail3 {
+  position: relative;
+  font-size: 16px;
+  color: white;
+  font-family: poppinsRegular;
+  width: 50%;
+  margin-left: 175px;
+  margin-top: 100px;
+  height: 50px;
+
+}
+
+#spiderman {
+  position: relative;
+
+  margin: 148px 180px;
+  width: 1146px;
+  height: 462px;
+}
+
+#bigoli {
+  position: absolute;
+  left: 1050px;
+  top: 1828px;
+  font-size: 80px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  color: #DC700059;
+}
+
+.detail4 {
+
+  font-family: poppinsRegular;
+  color: white;
+  font-size: 20px;
+  margin-left: 350px;
+  margin-top: 40px;
+  width: 60%;
+  text-align: center;
+}
+
+.photodiv {
+  display: flex;
+  position: relative;
+
+  margin-left: 175px;
+  margin-top: 100px;
+
+}
+
+.room {
+  max-width: 380px;
+  max-height: 270px;
+  margin-right: 15px;
+  border-radius: 25px;
+}
+
+.minroom {
+  min-width: 430px;
+}
+
+.see_all_room_btn {
+  margin-top: 70px;
+  margin-left: 285px;
+}
+
+.detail5 {
+  position: relative;
+  top: 174px;
+  left: 166px;
+  width: 1170px;
+  height: 189px;
+  background-color: var(--brown);
+  border-radius: 15px;
+  color: white;
+
+}
+
+.paragraph3 {
+  font-family: poppinsRegular;
+  font-size: 16px;
+  ;
+  margin-left: 56px;
+  width: 45%;
+}
+
+.paragraph4 {
+  font-size: 22px;
+  padding-top: 40px;
+}
+
+#emailbox {
+  font-size: 15px;
+  height: 45px;
+  width: 365px;
+  position: relative;
+  left: 730px;
+  bottom: 70px;
+  border-style: none;
+  border-radius: 5px;
+}
+
+#emailbtn {
+  position: absolute;
+  left: 900px;
+  bottom: 78px;
+}
+
+/* main end */
+
+/* footer */
+footer {
+  width: 1440px;
+  background-color: var(--black);
+  margin-top: 320px;
+  color: white;
+}
+
+.allfooter {
+  display: flex;
+  padding-top: 75px;
+}
+
+.detailfooter1 {
+  margin-left: 101px;
+  width: 24%;
+
+}
+
+.bold {
+  font-family: poppinsBold;
+}
+
+.detailfooter2 {
+
+
+  position: absolute;
+  left: 550px;
+  width: 130px;
+}
+
+.paragraph5 {
+  font-size: 22px;
+  font-family: poppinsRegular;
+}
+
+.list {
+  list-style: none;
+}
+
+.listelement {
+  margin-top: 6px;
+}
+
+.contactus {
+
+  position: relative;
+  left: 400px;
+  width: 20%;
+}
+
+.logo {
+
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  border-radius: 100%;
+  padding: 4px;
+  margin-right: 10px;
+
+
+}
+
+.logodiv {
+  position: absolute;
+  left: 1250px;
+  top: 4410px;
+}
+
+.finaldiv {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+/* footer end */
+
+/* main games */
+#game4 {
+  width: 790;
+  height: 656;
+  position: relative;
+  left: 648px;
+}
+
+.listdiv {
+  width: 378px;
+  height: 348px;
+  background-color: var(--brown);
+  margin-right: 43px;
+  margin-top: 63px;
+  border-radius: 17px;
+  color: white;
+  padding-left: 37px;
+  padding-top: 64px;
+}
+
+.color1 {
+border-radius: 9px;
+text-align: center;
+padding-top: 6px;
+  width: 140px;
+  height: 39px;
+  background-color: #B000DC1C;
+}
+
+.color2 {
+  border-radius: 9px;
+  text-align: center;
+  padding-top: 6px;
+  width: 140px;
+  height: 39px;
+  background-color: #DC42001C;
+}
+
+.color3 {
+border-radius: 9px;
+text-align: center;
+padding-top: 6px;
+  width: 140px;
+  height: 39px;
+  background-color: #00DC8D1C;
+}
+
+.wordsize{
+  font-size: 23px;
+  font-family: poppinsRegular;
+}
+.allbrown{
+  display: flex;
+  background-color: var(--brown);
+  margin-top: 147px;
+  width: 1440px;
+  height: 603px;
+}
+#laptop{
+  margin-top: 113px;
+  margin-left: 110px;
+  height: 490px;
+  width: 496px;
+}
+.detail6{
+  color: white;
+  margin-left: 100px;
+  margin-top: 134px;
+  width: 35%;
+  line-height: 35px;
+}
+.paragraph6{
+  font-family: poppinsRegular;
+  font-size: 29px;
+  line-height: 45px;
+}
+.character{
+  text-align: center;
+  color: white;
+  margin-left:100px ;
+  margin-top: 30px;;
+  
+}
+.listchar{
+  display: flex;
+  list-style: none;
+}
+.char{
+  border-radius: 15px;
+  margin-right: 28px;
+  background-color: var(--brown);
+  height: 253px;
+  width: 295px;
+}
+.charimg{
+  margin-top: 35px;
+}
+
+/* end main games */
+/*  footer games */
+.logodiv2 {
+  position: absolute;
+  left: 1250px;
+  top: 3365px;
+}
+
+/* end footer games */
